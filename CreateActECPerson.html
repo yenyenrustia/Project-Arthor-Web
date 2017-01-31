@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Create Account for Emergency Contact Person</title>
+		<meta charset="utf-8">
+		<style>
+		</style>
+	</head>
+	
+	<body>
+		<h1> PROJECT ARTHOR </h1>
+		<div>
+			<p> Create Account for </p>
+					<input type = "radio" name = "createPatient" id = "createPatient" value = "patient"  />
+						<label for = "sizeSmall">Patient</label>
+			
+					<input  onClick=" " type = "radio" name = "createECPerson" id = "createECPerson" value = "ecperson" />
+						<label for = "sizeSmall">Emergency Contact Person</label> 
+						
+			<table>
+				<tr>
+					<td> <form> ID: <input type="text" name="ecperson_id"> </form> </td>
+					<td> <form> PIN: <input type="text" name="ecperson_pin"> </form> </td>
+				</tr>
+				
+				<tr>
+					<td> <form> FIRST NAME: <input type = "text" name = "ecperson_fName"> </form> </td>
+					<td> <form> CONFIRM PIN: <input type = "text" name = "ecperson_confirmPin"> </form> </td>
+				</tr>
+				
+				<tr>
+					<td> <form> LAST NAME: <input type="text" name="ecperson_lName"> </form> </td>
+					<td> <form> TITLE:
+							 <select name="ecperson_Title">
+								<option value="mr">Mr.</option>
+								<option value="ms">Ms.</option>
+								<option value="mrs">Mrs.</option>
+								<option value="dr">Dr.</option>
+							</select>
+						</form>
+					</td>
+				</tr>
+				
+				<tr>
+					<td> <form> CONTACT No.: <input type = "text" name = "ecperson_contactNum"> </form></td>
+				</tr>
+			</table>
+			
+				<button type="button" onclick="alert('Submitting Information...')">Create Account</button>
+		</div>
+	</body>
+</html>

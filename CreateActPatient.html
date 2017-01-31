@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Create Account for Patient</title>
+		<meta charset="utf-8">
+		<style>
+		</style>
+	</head>
+	
+	<body>
+			<h1>PROJECT ARTHOR</h1>
+			<div>
+				<p>Create Account for</p>
+					<input type = "radio" name = "createPatient" id = "createPatient" value = "patient"  />
+						<label for = "sizeSmall">Patient</label>
+			
+					<input  onClick=" " type = "radio" name = "createECPerson" id = "createECPerson" value = "ecperson" />
+						<label for = "sizeSmall">Emergency Contact Person</label> 
+					
+			<table>
+				<tr>
+					<td> <form> ID: <input type="text" name="patient_id"> </form> </td>
+					<td> <form> PIN: <input type="text" name="patient_pin"> </form> </td>
+				</tr>
+			
+				<tr>
+					<td> <form> FIRST NAME: <input type = "text" name = "patient_fName"> </form> </td>
+					<td> <form> CONFIRM PIN: <input type = "text" name = "patient_confirmPin"> </form> </td>
+				</tr>
+			
+				<tr>
+					<td> <form> LAST NAME: <input type="text" name="patient_lName"> </form> </td>
+					<td> <form> EMERGENCY CONTACT ID (1): <input type="text" name="emContact_1"> </form> </td>
+				</tr>
+			
+				<tr>
+					<td> <form> BIRTHDATE: <input type="date" name="birth_Date"> </form> </td>
+					<td> <form> RELATIONSHIP w/ CONTACT (1): <input type="text" name="relContact_1"> </form> </td>
+				</tr>
+			
+				<tr>
+					<td> <form> WEIGHT (kg): <input type="text" name="patientWeight"> </form> </td>
+					<td> <form> EMERGENCY CONTACT ID (2): <input type="text" name="emContact_1"> </form> </td>
+				</tr>
+			
+				<tr>
+					<td> <form> HEIGHT (cm): <input type="text" name="patient_Height"> </form> </td>
+					<td> <form> RELATIONSHIP w/ CONTACT (1): <input type="text" name="relContact_2"> </form> </td>
+				</tr>
+			
+				<tr>
+					<td> <form> ADDRESS: <input type="text" name="patient_Address"> </form> </td>
+					<td> <form> DEVICE SERIAL NO.: <input type="text" name="dev_SerialNo"> </form> </td>
+				</tr>
+			
+				<tr>
+					<td> GENDER:
+						<input type = "radio" name = "male_Patient" id = "male_Patient" value = "male"  />
+							<label for = "sizeSmall">MALE</label>
+						<input type = "radio" name = "female_Patient" id = "female_Patient" value = "female"  />
+							<label for = "sizeSmall">FEMALE</label>
+					</td>			
+				</tr>
+			
+				<tr>
+					<td> <form> CONTACT NO.: <input type="text" name="patient_ContactNo"> </form> </td>
+					<td> <button type="submit" onclick="alert('Submitting Information...')">CREATE ACCOUNT</button></td>	
+				</tr>
+			</table>
+			</div>
+	</body>
+</html>
